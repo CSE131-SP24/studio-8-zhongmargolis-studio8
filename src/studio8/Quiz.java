@@ -32,7 +32,7 @@ public class Quiz {
 			q.displayPrompt();
 			String answer = this.getUserAnswer();
 			sum += q.checkAnswer(answer);
-			System.out.println(sum);
+			System.out.println(q.checkAnswer(answer));
 			System.out.println("");
 		}
 		
